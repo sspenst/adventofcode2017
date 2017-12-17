@@ -2,7 +2,6 @@ with open('input', 'r') as f:
     steps = int(f.read().strip())
 
     buf = [0]
-
     cur = 0
 
     for i in range(1, 2018):
